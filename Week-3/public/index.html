@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Step Tracker</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="./CSS/first.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body background="">
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./contact.html">Contact US</a></li>
+    <li><a href="./about.html">About US</a></li>
+    <li><a href="./login.html">Login</a></li>
+  </ul>
+  <div class="container center">
+    <p><h1>Welcome to FiTrack Pro!</h1><br>
+      <b>Your Ultimate Fitness Companion</b><br>
+      At FitTrack Pro, we believe that every step you take brings you closer to a healthier, happier you.<br> Our innovative step tracker and fitness app is designed to help you reach your fitness goals with<br> ease and motivation. Whether you're a seasoned athlete or just starting your fitness journey,<br> FitTrack Pro is here to support and inspire you every step of the way.</p>
+      <div ><img src="./images/steps.jpg" alt="steps counter">
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="First Name" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input placeholder="Last Name" id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="Email" id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="eg: 5.4" id="height" type="number" class="validate">
+              <label for="height">Height</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="eg: 80" id="weight" type="number" class="validate">
+              <label for="weight">Weight</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="btn-container">
+        <a href="#modal1" class="waves-effect waves-light btn indigo" id="track">Start Tracking</a>
+      </div>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+  <footer>
+    <a href="Cookie Preferences">Cookie Preferences</a>
+    <a href="Privacy Policy">Privacy Policy</a>
+    <a href="Terms of Service">Terms of Service</a>
+    <a href="#" class="fa fa-facebook"></a>
+  </footer>
+  </html>
